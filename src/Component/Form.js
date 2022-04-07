@@ -4,7 +4,7 @@ import React, {useState} from 'react';
 
 function Form() {
 	const [name , setName] = useState('');
-	const [age , setAge] = useState('');
+	const [age , setAge1] = useState('');
 	const [email , setEmail] = useState('');
 	const [password , setPassword] = useState('');
 	const [confPassword , setConfPassword] = useState('');
@@ -17,7 +17,7 @@ function Form() {
 	// function to update state of age with value
 	// enter by user in form
 	const handleAgeChange =(e)=>{
-	setAge(e.target.value);
+	setAge1(e.target.value);
 	}
 	// function to update state of email with value
 	// enter by user in form
