@@ -57,7 +57,7 @@ return (
 	<header className="App-header">
 	<form onSubmit={(e) => {handleSubmit(e)}}>
 	{/*when user submit the form , handleSubmit()
-		function will be called .*/}
+		function will be called .*/ }
 	<h2> Register here </h2>
 	<h3> Sign-up Form </h3>
 	
@@ -66,31 +66,28 @@ return (
 		</label><br/>
 		<input type="text" value={name} required onChange={(e)=> {handleChange(e)}} /><br/>
 		{ /*when user write in name input box , handleChange()
-			function will be called. */}
+			function will be called. */ }
 		<label >
 		Age:
 		</label><br/>
 		<input type="text" value={age} required onChange={(e)=> {handleAgeChange(e)}} /><br/>
-			{ /*when user write in age input box , handleAgeChange()
-			function will be called. */}
+			
 		<label>
 		Email:
 		</label><br/>
 		<input type="email" value={email} required onChange={(e)=> {handleEmailChange(e)}} /><br/>
-		{/* when user write in email input box , handleEmailChange()
-			function will be called.*/}
+		
 		<label>
 		Password:
 		</label><br/>
 		<input type="password" value={password} required onChange={(e)=> {handlePasswordChange(e)}} /><br/>
-			{/* when user write in password input box ,
-				handlePasswordChange() function will be called.*/}
+			
 		<label>
 		Confirm Password:
 		</label><br/>
 		<input type="password" value={confPassword} required onChange={(e)=> {handleConfPasswordChange(e)}} /><br/>
 				{/* when user write in confirm password input box ,
-					handleConfPasswordChange() function will be called.*/}
+					handleConfPasswordChange() function will be called.*/ }
 		<input type="submit" value="Submit"/>
 	</form>
 	</header>
@@ -98,4 +95,11 @@ return (
 );
 }
 
-export default Form;
+export default Form; 
+
+
+
+
+
+
+
